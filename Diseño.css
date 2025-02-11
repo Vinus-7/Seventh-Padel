@@ -1,0 +1,24 @@
+/* Mensaje de reserva */
+#mensaje {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    color: #ffffff;
+    background: #007bff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: fit-content;
+    margin: 10px auto;
+}
+
+/* Efecto de animación en secciones */
+section {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
